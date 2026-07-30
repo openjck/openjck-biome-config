@@ -1,6 +1,6 @@
 {
   "name": "@openjck/biome-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "John Karahalis' personal Biome configuration",
   "type": "module",
   "exports": {

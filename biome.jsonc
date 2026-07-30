@@ -3,16 +3,26 @@
   "vcs": {
     "enabled": true,
     "clientKind": "git",
-    "useIgnoreFile": true
+    "useIgnoreFile": true,
   },
   "formatter": {
-    "indentStyle": "space"
+    "indentStyle": "space",
   },
   "assist": {
     "actions": {
       "source": {
-        "organizeImports": "on"
-      }
-    }
-  }
+        "organizeImports": "on",
+      },
+    },
+  },
+  "overrides": [
+    {
+      "includes": ["**/*.jsonc"],
+      "json": {
+        "formatter": {
+          "trailingCommas": "all",
+        },
+      },
+    },
+  ],
 }
