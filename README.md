@@ -3,7 +3,7 @@ Karahalis](https://www.johnkarahalis.com) in his personal projects.
 
 ## Installation
 
-Run `npm install --save-dev @openjck/configs/biome`.
+Run `npm install --save-dev @openjck/biome-config`.
 
 ## Usage
 
@@ -13,4 +13,4 @@ Run `npm install --save-dev @openjck/configs/biome`.
 3. Rename _biome.json_ to _biome.jsonc_.
 3. Edit _biome.jsonc_.
     1. Remove all lines except for the line defining the `$schema` property.
-    2. Add the following line: `"extends": ["@openjck/configs/biome"],`
+    2. Add the following line: `"extends": ["@openjck/biome-config"],`

@@ -1,5 +1,5 @@
 {
-  "name": "@openjck/configs/biome",
+  "name": "@openjck/biome-config",
   "version": "1.0.0",
   "description": "John Karahalis' personal Biome configuration",
   "type": "module",
