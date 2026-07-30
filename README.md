@@ -11,5 +11,5 @@ Run `npm install --save-dev @openjck/biome-config`.
    @biomejs/biome`.
 2. Run `npx biome init --jsonc`.
 3. Edit _biome.jsonc_.
-    1. Remove all lines except for the line defining the `$schema` property.
+    1. Remove all properties and their values except for `$schema`.
     2. Add the following line: `"extends": ["@openjck/biome-config"],`
